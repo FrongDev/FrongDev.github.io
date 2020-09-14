@@ -1,0 +1,49 @@
+/* Header stuff */
+
+header {
+	margin-bottom: 10px;
+}
+
+header table {
+	outline-style: solid;
+	width: 100%;
+}
+
+.logo {
+	width: 130px;
+	vertical-align: center;
+}
+
+header a img {
+	vertical-align: bottom;
+}
+
+.title {
+	text-align: center;
+}
+
+/* Nav stuff */
+
+nav h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+nav a {
+	font-size: large;
+}
+
+.navbar {
+	width: 130px;
+}
+
+/* Article stuff */
+
+.article {
+	text-align: center;
+	width: auto;
+}
+
+.body {
+	width: 100%;
+}
