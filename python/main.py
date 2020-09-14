@@ -77,7 +77,7 @@ def fight_game():
         t1 = time.time()
         if (t1 - t0) <= 5 and grab1.lower() == "grab":
             print("")
-            input("Nice! You grab Bowzer's tail and start to spin, hopefully you land your throw.")
+            input("Nice! You grab Bowzer's tail and star to spin, hopefully you land your throw.")
             random.seed()
             yeet = random.randint(1,3)
             if yeet == 3:
@@ -97,7 +97,7 @@ def fight_game():
         t1 = time.time()
         if (t1 - t0) <= 5 and grab1.lower() == "dash grab":
             print("")
-            input("Nice! You grab Bowzer's tail and start to spin, hopefully you land your throw.")
+            input("Nice! You grab Bowzer's tail and star to spin, hopefully you land your throw.")
             random.seed()
             yeet = random.randint(1,3)
             if yeet == 3:
@@ -117,7 +117,7 @@ def fight_game():
         t1 = time.time()
         if (t1 - t0) <= 5 and grab1.lower() == "dash grab spin":
             print("")
-            input("Nice! You grab Bowzer's tail and start to spin, hopefully you land your throw.")
+            input("Nice! You grab Bowzer's tail and star to spin, hopefully you land your throw.")
             random.seed()
             yeet = random.randint(1,3)
             if yeet == 3:
@@ -173,7 +173,8 @@ else:
     input("Welp, better luck next time! There's always more fish in the sea.")
     print("")
     print("Thanks for playing!")
-    input("This production was brought to you by frong.")
+    input("""This production was brought to you by frong.
+Special shout out to lum and jahar.""")
     print("")
     input("Until next time!")
     quit()

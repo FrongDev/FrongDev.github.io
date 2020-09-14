@@ -1,3 +1,15 @@
+/* Color scheme */
+
+body {
+	background-color: #121212;
+	color: white;
+}	
+
+a {
+	color: white;
+}
+
+
 /* Header stuff */
 
 header {
@@ -6,6 +18,8 @@ header {
 
 header table {
 	outline-style: solid;
+	outline-color: #0D6CE8;
+	outline-width: 2px;
 	width: 100%;
 }
 
@@ -39,7 +53,7 @@ nav a {
 	vertical-align: top;
 }
 
-/* Article stuff */
+/* Twitter stuff */
 
 .article {
 	text-align: center;
@@ -49,16 +63,44 @@ nav a {
 
 .body {
 	width: 100%;
+	height: 100%;
+}
+
+
+/* Blog */
+
+#blog {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+}
+
+.blog_table {
+	width: 93%;
+	height: 910px;
+	vertical-align: top;
+}
+
+.blog_table iframe {
+	border-color: #000000;
+	border-style: groove;
 }
 
 /* Instructions */
 
-.instructions {
+body h3 {
 	text-align: center;
+}
+
+/* Game */
+
+.python_embed span {
+	style: blue;
 }
 
 /* Etc */
 
 hr {
 	width: 100%;
+	border-color: #0D6CE8;
 }
