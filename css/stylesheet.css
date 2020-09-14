@@ -20,6 +20,7 @@ header a img {
 
 .title {
 	text-align: center;
+	padding-right: 130px;
 }
 
 /* Nav stuff */
@@ -35,6 +36,7 @@ nav a {
 
 .navbar {
 	width: 130px;
+	vertical-align: top;
 }
 
 /* Article stuff */
@@ -42,8 +44,21 @@ nav a {
 .article {
 	text-align: center;
 	width: auto;
+	padding-left: 15%;
 }
 
 .body {
+	width: 100%;
+}
+
+/* Instructions */
+
+.instructions {
+	text-align: center;
+}
+
+/* Etc */
+
+hr {
 	width: 100%;
 }
