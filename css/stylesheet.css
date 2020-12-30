@@ -125,6 +125,21 @@ body h3 {
 	style: blue;
 }
 
+/* Gallery */
+
+.galleryImg {
+	width: 350px;
+	height: 350px;
+}
+
+.galleryImgContainer {
+	width: 1%
+}
+
+.galleryDescription {
+	text-align: center;
+}	
+
 /* Etc */
 
 hr {
